@@ -1,0 +1,36 @@
+/**
+ * Any CSS included here will be global. The toolkit-clean typography and
+ * color palette is inspired by Qualcomm's visual identity.
+ */
+
+:root {
+  --ifm-color-primary: #3253dc;
+  --ifm-color-primary-dark: #213fdf;
+  --ifm-color-primary-darker: #1e3ccb;
+  --ifm-color-primary-darkest: #1932aa;
+  --ifm-color-primary-light: #4e6ce1;
+  --ifm-color-primary-lighter: #5d79e4;
+  --ifm-color-primary-lightest: #879ceb;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability on dark mode */
+[data-theme='dark'] {
+  --ifm-color-primary: #4e6ce1;
+  --ifm-color-primary-dark: #3253dc;
+  --ifm-color-primary-darker: #2b48bf;
+  --ifm-color-primary-darkest: #243c9f;
+  --ifm-color-primary-light: #718ae6;
+  --ifm-color-primary-lighter: #8299e9;
+  --ifm-color-primary-lightest: #b6c4f2;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__brand {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #0b1c3d;
+}
