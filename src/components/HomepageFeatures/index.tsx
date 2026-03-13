@@ -5,14 +5,12 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  img: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Snapdragon Optimized',
-    img: require('@site/static/img/npu_feature.png').default,
     description: (
       <>
         Leverage W4A16 quantization and the Qualcomm NPU for efficient, 
@@ -22,7 +20,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'AI Hub Integrated',
-    img: require('@site/static/img/community_feature.png').default,
     description: (
       <>
         Built specifically for the Qualcomm AI Hub community, ensuring 
@@ -32,7 +29,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Edge Intelligence',
-    img: require('@site/static/img/edge_feature.png').default,
     description: (
       <>
         Deploy state-of-the-art LLMs like Qwen3-4B directly to the edge, 
@@ -42,12 +38,9 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, img, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img src={img} className={styles.featureSvg} alt={title} />
-      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>

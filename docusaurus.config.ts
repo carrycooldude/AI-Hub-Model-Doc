@@ -149,7 +149,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} carrycooldude. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} carrycooldude.`,
     },
     prism: {
       theme: prismThemes.github,

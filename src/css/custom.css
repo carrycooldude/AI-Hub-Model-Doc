@@ -34,3 +34,19 @@
 .footer {
   background-color: #0b1c3d;
 }
+
+/* Professional text-only feature cards */
+.col--4 {
+  padding: 2rem;
+}
+
+.text--center h3 {
+  border-bottom: 2px solid var(--ifm-color-primary);
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+[data-theme='dark'] .text--center h3 {
+  border-bottom-color: var(--ifm-color-primary-light);
+}
