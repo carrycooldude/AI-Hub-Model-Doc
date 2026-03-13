@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://carrycooldude.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Qwen3-4B-Snapdragon-Docs/',
+  baseUrl: '/AI-Hub-Model-Doc/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'carrycooldude', // Usually your GitHub org/user name.
-  projectName: 'Qwen3-4B-Snapdragon-Docs', // Usually your repo name.
+  projectName: 'AI-Hub-Model-Doc', // Usually your repo name.
 
   onBrokenLinks: 'ignore',
 

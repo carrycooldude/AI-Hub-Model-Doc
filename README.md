@@ -1,41 +1,36 @@
-# Website
+# AI-Hub Model Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Professional documentation and deployment guides for AI models optimized for the Qualcomm AI Engine and Snapdragon hardware.
 
-## Installation
+## 🚀 Overview
+This repository contains the source code for the **Qwen3-4B Snapdragon Deployment Guide**. It leverages [Docusaurus](https://docusaurus.io/) to provide a structured, mobile-responsive, and developer-friendly documentation experience.
 
+## 📖 Content
+- **Architecture Deep-Dive**: Understanding GQA, SwiGLU, and hybrid reasoning modes.
+- **Optimization Guide**: Step-by-step instructions for W4A16 quantization using `qai-hub-models`.
+- **Contribution Workflow**: Guidelines for contributing optimized assets to the Qualcomm AI Hub Community.
+
+## 🛠️ Development
+To run this documentation site locally:
+
+1.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+2.  **Start the Site**:
+    ```bash
+    npm start
+    ```
+3.  **Build statically**:
+    ```bash
+    npm run build
+    ```
+
+## 🌐 Deployment
+The site is automatically deployed to GitHub Pages using:
 ```bash
-yarn
+npm run deploy
 ```
 
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+---
+*Maintained by [carrycooldude](https://github.com/carrycooldude). Optimized for the Qualcomm AI ecosystem.*
