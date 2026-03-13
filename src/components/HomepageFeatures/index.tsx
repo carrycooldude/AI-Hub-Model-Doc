@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Snapdragon Optimized',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Leverage W4A16 quantization and the Qualcomm NPU for efficient, 
+        high-performance on-device inference.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'AI Hub Integrated',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Built specifically for the Qualcomm AI Hub community, ensuring 
+        seamless deployment across Snapdragon devices.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Edge Intelligence',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Deploy state-of-the-art LLMs like Qwen3-4B directly to the edge, 
+        enabling privacy-first, low-latency applications.
       </>
     ),
   },

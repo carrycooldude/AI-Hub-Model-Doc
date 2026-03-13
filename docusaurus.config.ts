@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Qwen3-4B Snapdragon Guide',
+  title: 'AI-Hub-Model-Doc',
   tagline: 'On-device intelligence optimized for Snapdragon',
   favicon: 'img/favicon.ico',
 
@@ -35,6 +35,11 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   presets: [
     [
@@ -76,9 +81,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Qwen3-4B Guide',
+      title: 'AI-Hub-Model-Doc',
       logo: {
-        alt: 'Qwen3 Logo',
+        alt: 'AI-Hub Logo',
         src: 'img/logo.svg',
       },
       items: [
