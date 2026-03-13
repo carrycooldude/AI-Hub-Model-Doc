@@ -89,7 +89,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Contribution Blog', position: 'left'},
         {
-          href: 'https://huggingface.co/qualcomm-ai-hub-community/Qwen3-4B-Instruct-APLUX',
+          href: 'https://huggingface.co/qualcomm-ai-hub-community/Qwen3-4B-Instruct-carrycooldude',
           label: 'Hugging Face',
           position: 'right',
         },

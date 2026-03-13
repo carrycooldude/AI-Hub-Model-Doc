@@ -49,7 +49,7 @@ For files exceeding 5GB, standard `git push` may fail due to network timeouts. W
 hf auth login
 
 # Upload the entire folder
-hf upload qualcomm-ai-hub-community/Qwen3-4B-Instruct-APLUX . 
+hf upload qualcomm-ai-hub-community/Qwen3-4B-Instruct-carrycooldude . 
 ```
 
 ## Step 3: Metadata Validation
