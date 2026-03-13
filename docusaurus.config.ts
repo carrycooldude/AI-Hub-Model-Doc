@@ -84,7 +84,7 @@ const config: Config = {
       title: 'AI-Hub-Model-Doc',
       logo: {
         alt: 'AI-Hub Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
