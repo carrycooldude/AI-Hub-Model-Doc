@@ -7,7 +7,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'AI-Hub-Model-Doc',
   tagline: 'On-device intelligence optimized for Snapdragon',
-  favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -75,17 +74,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
       title: 'AI-Hub-Model-Doc',
-      logo: {
-        alt: 'AI-Hub Logo',
-        src: 'img/logo.png',
-      },
       items: [
         {
           type: 'docSidebar',
