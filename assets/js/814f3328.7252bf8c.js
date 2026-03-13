@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkqwen_3_docs=globalThis.webpackChunkqwen_3_docs||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Deploying Qwen3.5-4B on Snapdragon","permalink":"/AI-Hub-Model-Doc/blog/qwen3-contribution-journey","unlisted":false,"date":"2026-03-14T00:00:00.000Z"}]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkqwen_3_docs=globalThis.webpackChunkqwen_3_docs||[]).push([[1903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/AI-Hub-Model-Doc/blog","blogTitle":"Blog","authorsListPath":"/AI-Hub-Model-Doc/blog/authors"}')}}]);

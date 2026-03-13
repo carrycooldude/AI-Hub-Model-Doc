@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://carrycooldude.github.io/AI-Hub-Model-Doc/blog</id>
+    <title>AI-Hub-Model-Doc Blog</title>
+    <updated>2026-03-14T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://carrycooldude.github.io/AI-Hub-Model-Doc/blog"/>
+    <subtitle>AI-Hub-Model-Doc Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Deploying Qwen3.5-4B on Snapdragon]]></title>
+        <id>https://carrycooldude.github.io/AI-Hub-Model-Doc/blog/qwen3-contribution-journey</id>
+        <link href="https://carrycooldude.github.io/AI-Hub-Model-Doc/blog/qwen3-contribution-journey"/>
+        <updated>2026-03-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The landscape of on-device AI is evolving rapidly, and the release of Qwen3-4B (often referred to as Qwen3.5 in recent community discussions) marks a significant milestone. In this post, I’ll take you through the details of this state-of-the-art model and the precise workflow I followed to contribute it to the Qualcomm AI Hub Community.]]></summary>
+        <content type="html"><![CDATA[<p>The landscape of on-device AI is evolving rapidly, and the release of <strong>Qwen3-4B</strong> (often referred to as Qwen3.5 in recent community discussions) marks a significant milestone. In this post, I’ll take you through the details of this state-of-the-art model and the precise workflow I followed to contribute it to the <strong>Qualcomm AI Hub Community</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-journey">The Journey<a href="https://carrycooldude.github.io/AI-Hub-Model-Doc/blog/qwen3-contribution-journey#the-journey" class="hash-link" aria-label="Direct link to The Journey" title="Direct link to The Journey" translate="no">​</a></h2>
+<p>Contributing a model to the Qualcomm AI Hub Community Space on Hugging Face requires structural precision to ensure the assets are deployable by others.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-qwen3">Why Qwen3?<a href="https://carrycooldude.github.io/AI-Hub-Model-Doc/blog/qwen3-contribution-journey#why-qwen3" class="hash-link" aria-label="Direct link to Why Qwen3?" title="Direct link to Why Qwen3?" translate="no">​</a></h3>
+<p>The Qwen3-4B model excels in <strong>reasoning, math, and coding</strong>, outperforming many models in its size class. On a flagship platform like the <strong>Snapdragon 8 Elite (QCS9075)</strong>, it delivers impressive <strong>Time To First Token (TTFT)</strong> and sustainable response rates.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-technical-map">The Technical Map<a href="https://carrycooldude.github.io/AI-Hub-Model-Doc/blog/qwen3-contribution-journey#the-technical-map" class="hash-link" aria-label="Direct link to The Technical Map" title="Direct link to The Technical Map" translate="no">​</a></h3>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="overcoming-challenges">Overcoming Challenges<a href="https://carrycooldude.github.io/AI-Hub-Model-Doc/blog/qwen3-contribution-journey#overcoming-challenges" class="hash-link" aria-label="Direct link to Overcoming Challenges" title="Direct link to Overcoming Challenges" translate="no">​</a></h3>
+<p>Large model contributions (15GB+) often hit snags. During the upload, we encountered:</p>
+<ul>
+<li class=""><strong>Git LFS Configuration</strong>: Ensuring <code>.gitattributes</code> correctly tracked the massive zip file.</li>
+<li class=""><strong>Authentication</strong>: Navigating Hugging Face's <code>403 Forbidden</code> errors by switching from fine-grained tokens to a standard <strong>Write</strong> token.</li>
+</ul>
+<p>Stay tuned for more on-device AI guides!</p>
+<hr>
+<p><em>The model is now available at <a href="https://huggingface.co/qualcomm-ai-hub-community/Qwen3-4B-Instruct-carrycooldude" target="_blank" rel="noopener noreferrer" class="">qualcomm-ai-hub-community/Qwen3-4B-Instruct-carrycooldude</a>.</em></p>]]></content>
+        <author>
+            <name>carrycooldude</name>
+            <uri>https://github.com/carrycooldude</uri>
+        </author>
+        <category label="qwen3" term="qwen3"/>
+        <category label="snapdragon" term="snapdragon"/>
+        <category label="ai-hub" term="ai-hub"/>
+    </entry>
+</feed>
